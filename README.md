@@ -12,15 +12,15 @@ In this project, I've worked on creating a simple chatbot using Facebook’s Ble
 ## Versione 2
 Miglioramenti:
 
-* Gestione delle eccezioni:
+* Gestione delle eccezioni
   - Aggiunta di un blocco try-except per catturare eventuali errori senza terminare bruscamente il programma.
-* Chiusura della conversazione:
+* Chiusura della conversazione
   - Se l'utente digita "exit" o "quit", la conversazione si interrompe in modo ordinato.
-* Limite della cronologia:
+* Limite della cronologia
   - Viene limitato il numero di turni conservati nella cronologia a 5, per evitare che il contesto diventi troppo lungo e rallenti il modello.
 *  Parametri del modello
   - Vengono introdotti i parametri max_length (limite massimo di lunghezza della risposta) e temperature (che controlla la casualità della risposta). Questo permette un controllo più fine su come il modello genera risposte.
-*  Funzioni modularizzate:
+*  Funzioni modularizzate
   - Abbiamo separato la logica della generazione della risposta e della gestione della cronologia in funzioni distinte per migliorare la leggibilità e la manutenibilità.
 * Interfaccia più amichevole:
   - Il programma ora fornisce istruzioni chiare per iniziare la conversazione e per uscire. Questo approccio rende il codice più facile da estendere e manutenere, migliorando allo stesso tempo l'usabilità e la stabilità.
