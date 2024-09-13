@@ -19,7 +19,7 @@ Miglioramenti:
 * Limite della cronologia
   - Viene limitato il numero di turni conservati nella cronologia a 5, per evitare che il contesto diventi troppo lungo e rallenti il modello.
 *  Parametri del modello
-  - Vengono introdotti i parametri max_length (limite massimo di lunghezza della risposta) e temperature (che controlla la casualità della risposta). Questo permette un controllo più fine su come il modello genera risposte.
+*  - Vengono introdotti i parametri max_length (limite massimo di lunghezza della risposta) e temperature (che controlla la casualità della risposta). Questo permette un controllo più fine su come il modello genera risposte.
 *  Funzioni modularizzate
   - Abbiamo separato la logica della generazione della risposta e della gestione della cronologia in funzioni distinte per migliorare la leggibilità e la manutenibilità.
 * Interfaccia più amichevole:
