@@ -21,6 +21,6 @@ Miglioramenti:
 *  Parametri del modello
   - Vengono introdotti i parametri max_length (limite massimo di lunghezza della risposta) e temperature (che controlla la casualità della risposta). Questo permette un controllo più fine su come il modello genera risposte.
 *  Funzioni modularizzate
-  - Abbiamo separato la logica della generazione della risposta e della gestione della cronologia in funzioni distinte per migliorare la leggibilità e la manutenibilità.
+*  - Abbiamo separato la logica della generazione della risposta e della gestione della cronologia in funzioni distinte per migliorare la leggibilità e la manutenibilità.
 * Interfaccia più amichevole:
   - Il programma ora fornisce istruzioni chiare per iniziare la conversazione e per uscire. Questo approccio rende il codice più facile da estendere e manutenere, migliorando allo stesso tempo l'usabilità e la stabilità.
